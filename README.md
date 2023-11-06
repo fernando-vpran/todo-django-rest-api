@@ -8,13 +8,11 @@ This is a simple todolist API, with basic CRUD operations (check out the Angular
 	- retrieve all tasks using **GET**
 	- create a new task using **POST** with body JSON `{ "name": "Task name" }`
 	- delete all tasks using **DELETE**
-<br>
 - `/api/todolist/{id}` 
 	- retrieve task data using **GET**
 	- update task data using **PUT** with body JSON 
 		`{ "name": "Updated task name", "done": (True | False) }`
 	- delete task using **DELETE**
-<br>
 - `/api/status/{done|undone} ` 
 	- retrieve tasks by status using **GET**
 		- status "done" = `{ "done": True }`
